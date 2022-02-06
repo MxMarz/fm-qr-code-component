@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@400;700&display=swap");
+
+/*Variables*/
+:root {
+  --light-gray: #d6e2f0;
+  --grayish-blue: #7b879d;
+  --dark-blue: #1f3251;
+}
+
+body {
+  background-color: var(--light-gray);
+  padding: 0;
+  margin: 0;
+}
+
+.view {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr_code_block {
+  width: 320px;
+  height: 497px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.qr_code_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0 0 0;
+}
+
+.qr_code {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+
+/*Text*/
+.qr_code_header {
+  text-align: center;
+}
+
+.qr_header {
+  margin: 24px 0 0 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.qr_code_paragraph {
+  margin: 14px 0 0 0;
+  text-align: center;
+}
+
+.qr_paragraph {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--grayish-blue);
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/*Credit*/
+.view[id="credit"] {
+  padding: 0;
+  margin: 0;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view[id="credit"] > h3 {
+  color: var(--dark-blue);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.view[id="credit"] a {
+  color: var(--grayish-blue);
+}
+
+.view[id="credit"] a:hover {
+  color: #2c7dfa;
+}
